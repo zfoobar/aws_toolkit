@@ -4,6 +4,7 @@ on: [push]
 
 jobs:
   build:
+    if: github.repository == 'apache/arrow'
     runs-on: ubuntu-latest
     strategy:
       matrix:
