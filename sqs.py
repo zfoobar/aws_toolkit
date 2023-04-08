@@ -2,7 +2,7 @@ import boto3
 import json
 
 
-
+# a quick and dirty client testing AWS SQS
 class sqs_client:
 
     def __init__(self, queue_url, region):
